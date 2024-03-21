@@ -1,36 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina pyme</title>
+    <title>Página de Reciclaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.agroindustrialcolonial.com/wp-content/uploads/2015/12/fondo2-1024x640.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Página de Reciclaje</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenido a nuestra página de reciclaje</h2>
+        <p>En esta página, encontrarás información sobre cómo puedes contribuir al medio ambiente mediante prácticas de reciclaje.</p>
+    </section>
 
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa comprometida con la preservación del medio ambiente. Nuestro objetivo es fomentar el reciclaje y la reutilización de materiales.</p>
+    </section>
 
-    <div class="head">
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Recogida selectiva de residuos</li>
+            <li>Reciclaje de papel, plástico, vidrio y metal</li>
+            <li>Asesoramiento en prácticas de reciclaje</li>
+        </ul>
+    </section>
 
-        <div class="logo">
-
-            <a href="#"logo</a>
-
-        </div>
-
-        <div class="navbar">
-            <a href="#">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Contacto</a>
-            <a href="#">Producto</a>
-
-        </div>
-
-
-    </div>
-
-
-
-
-
-
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos a través de:</p>
+        <ul>
+            <li>Teléfono: 123-456-789</li>
+            <li>Correo electrónico: info@reciclaje.com</li>
+        </ul>
+    </footer>
 </body>
 </html>

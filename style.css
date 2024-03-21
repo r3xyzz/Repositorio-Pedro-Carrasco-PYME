@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.agroindustrialcolonial.com/wp-content/uploads/2015/12/fondo2-1024x640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Añadimos esta línea para asegurarnos de que la imagen no se repita */
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Se añade transparencia al encabezado */
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Se añade transparencia al fondo de las secciones */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Se añade transparencia al pie de página */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
