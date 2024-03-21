@@ -8,6 +8,16 @@ body {
     background-repeat: no-repeat; /* Añadimos esta línea para asegurarnos de que la imagen no se repita */
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://th.bing.com/th/id/R.df37ddc4537d64d11a319ab754c8df7e?rik=hBD6gusXKi9jhQ&pid=ImgRaw&r=0');
+    background-size: 100% 100%; /* Ajuste para que la imagen se vea completa */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 header {
     background-color: rgba(0, 0, 0, 0.5); /* Se añade transparencia al encabezado */
