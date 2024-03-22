@@ -4,92 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Página de Reciclaje</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body style="background-image: url('https://sawadaosamu.com/wp-content/uploads/2017/06/GORIPAKU2063_TP_V-e1520172299567.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh;">
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url('https://sawadaosamu.com/wp-content/uploads/2017/06/GORIPAKU2063_TP_V-e1520172299567.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh; /* Ajusta la altura al 100% de la ventana visible */
-    }
-
-    .navbar {
-        background-color: #333;
-        overflow: hidden;
-    }
-
-    .navbar a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
-    }
-
-    header {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        padding: 20px;
-    }
-
-    header h1 {
-        margin: 0;
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: inline;
-        margin-right: 20px;
-    }
-
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    section {
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.7);
-    }
-
-    footer {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
-</style>
-<body>
-    <div class="navbar">
+    <div class="reciclaje-navbar">
         <a href="index.html">Inicio</a>
-        <a href="reciclaje.html">Página de Reciclaje</a>
         <a href="sobrenosotros.html">Sobre Nosotros</a>
         <a href="servicios.html">Servicios</a>
         <a href="contacto.html">Contacto</a>
     </div>
 
-
-    
-    <section>
+    <section class="contacto-section">
         <h2>Contacto</h2>
         <p>¡Gracias por visitar nuestra página web! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p>
         <p>Puedes contactarnos a través de:</p>
         <ul>
-            <li><strong>Teléfono:</strong> 123-456-789</li>
-            <li><strong>Correo electrónico:</strong> info@reciclaje.com</li>
+            <li><strong>Teléfono:</strong> +56 9 9339 44 70</li>
+            <li><strong>Correo electrónico:</strong> acarverg@gmail.com</li>
         </ul>
     </section>
+
+    <!-- Botón para enviar correo electrónico -->
+    <button class="enviar-email-button" onclick="window.location.href='mailto:acarverg@gmail.com'">Enviar Correo Electrónico</button>
 </body>
 </html>
