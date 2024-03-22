@@ -4,82 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Reciclaje</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('https://www.agroindustrialcolonial.com/wp-content/uploads/2015/12/fondo2-1024x640.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        header {
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            padding: 20px;
-        }
-
-        header.sticky {
-            background-color: rgba(0, 0, 0, 0.8); /* Cambiar el color de fondo */
-            transition: background-color 0.3s ease; /* Agregar una transición suave */
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .section-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            padding: 20px;
-        }
-
-        .section-box {
-            width: 30%;
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.7);
-            border-radius: 10px;
-            cursor: pointer; /* Agregamos un cursor para indicar que es interactivo */
-            transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
-        }
-
-        .section-box:hover {
-            background-color: rgba(255, 255, 255, 0.8); /* Cambiar el color de fondo al pasar el mouse */
-        }
-
-        .section-box h2 {
-            margin-top: 0;
-        }
-
-        .section-content {
-            display: none; /* El contenido está oculto por defecto */
-            margin-top: 10px; /* Espacio adicional entre el título y el contenido */
-        }
-
-        .section-content.active {
-            display: block; /* Mostrar el contenido cuando la clase 'active' está presente */
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Enlace al archivo CSS -->
 </head>
 
 <body>
@@ -87,59 +12,20 @@
         <h1>Página de Reciclaje</h1>
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
                 <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    
-    <div class="section-container">
-        <div class="section-box">
-            <h2>Nosotros</h2>
-            <div class="section-content">
-                <p>Somos una empresa comprometida con la preservación del medio ambiente. Nuestro objetivo es fomentar el reciclaje y la reutilización de materiales.</p>
-                <p>Nuestra empresa ha estado en funcionamiento durante más de una década, trabajando con comunidades locales para educar sobre la importancia del reciclaje y proporcionar soluciones sostenibles para la gestión de residuos.</p>
-                <p>Trabajamos en estrecha colaboración con organizaciones gubernamentales y no gubernamentales para implementar programas de reciclaje efectivos y reducir la huella ambiental en nuestras áreas de operación.</p>
-            </div>
-        </div>
 
-        <div class="section-box">
-            <h2>Porque Preferirnos ?</h2>
-            <div class="section-content">
-                <ul>
-                    <li>Recogida selectiva de residuos</li>
-                    <li>Reciclaje de papel, plástico, vidrio y metal</li>
-                    <li>Asesoramiento en prácticas de reciclaje</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section-box">
-            <h2>Contacto</h2>
-            <div class="section-content">
-                <p>Puedes contactarnos a través de:</p>
-                <ul>
-                    <li>Teléfono: +569 9339 44 70</li>
-                    <li>Correo electrónico: acarverg@gmail.com</li>
-                </ul>
-            </div>
-        </div>
+    <div class="welcome">
+        <h2>Bienvenido a nuestra página de Reciclaje</h2>
+        <img src="https://i.pinimg.com/736x/59/36/cd/5936cddb02709637c490ef38813705d6.jpg" alt="Logo de la Empresa">
+        <p>Somos una empresa comprometida con la preservación del medio ambiente. Nuestro objetivo es fomentar el reciclaje y la reutilización de materiales.</p>
+        <p>Trabajamos en estrecha colaboración con comunidades locales para educar sobre la importancia del reciclaje y proporcionar soluciones sostenibles para la gestión de residuos.</p>
     </div>
 
-    <script>
-        // Función para activar/desactivar el contenido desplegable
-        function toggleContent(event) {
-            event.currentTarget.querySelector('.section-content').classList.toggle('active');
-        }
-
-        // Añadir eventos de click a cada caja de sección para desplegar su contenido
-        document.querySelectorAll('.section-box').forEach(box => {
-            box.addEventListener('click', toggleContent);
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
