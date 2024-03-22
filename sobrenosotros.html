@@ -3,79 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros - Página de Reciclaje</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sobre Nosotros - Pedro Orlando Carrasco Arias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://th.bing.com/th/id/OIP.mDc12-UBhkLrJkRsNhlB5AHaDS?rs=1&pid=ImgDetMain');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .logo img {
+            width: 150px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .cta {
+            margin-top: 40px;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url('https://th.bing.com/th/id/R.df37ddc4537d64d11a319ab754c8df7e?rik=hBD6gusXKi9jhQ&pid=ImgRaw&r=0');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    header {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        padding: 20px;
-    }
-
-    header h1 {
-        margin: 0;
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: inline;
-        margin-right: 20px;
-    }
-
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    section {
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.7);
-    }
-
-    footer {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
-</style>
-
 <body>
-    <header>
-        <h1>Página de Reciclaje</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section>
-        <h2>Sobre Nosotros</h2>
-        <p>Somos una empresa comprometida con la preservación del medio ambiente. Nuestro objetivo es fomentar el reciclaje y la reutilización de materiales.</p>
-        <p>Nuestra empresa ha estado en funcionamiento durante más de una década, trabajando con comunidades locales para educar sobre la importancia del reciclaje y proporcionar soluciones sostenibles para la gestión de residuos.</p>
-        <p>Trabajamos en estrecha colaboración con organizaciones gubernamentales y no gubernamentales para implementar programas de reciclaje efectivos y reducir la huella ambiental en nuestras áreas de operación.</p>
-    </section>
-
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="https://i.pinimg.com/736x/59/36/cd/5936cddb02709637c490ef38813705d6.jpg" alt="Logo de Pedro Orlando Carrasco Arias">
+        </div>
+        <h1>Pedro Orlando Carrasco Arias</h1>
+        <p>Reciclaje, comercialización de plástico y otros.</p>
+        <p>Hacemos fletes también.</p>
+        <p>Somos una empresa comprometida con:</p>
+        <ul>
+            <li><span class="highlight">Respuestas oportunas</span></li>
+            <li><span class="highlight">Pago dentro de 24 horas</span></li>
+            <li><span class="highlight">Autorización de funcionamiento emitida por SEREMI</span></li>
+            <li><span class="highlight">Fletes a empresas también</span></li>
+        </ul>
+        <div class="cta">
+            <a href="contacto.html">Contáctanos</a>
+        </div>
+    </div>
 </body>
 </html>
+
+
+

@@ -18,6 +18,20 @@
         background-repeat: no-repeat;
     }
 
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
     header {
         background-color: rgba(0, 0, 0, 0.5);
         color: #fff;
@@ -26,22 +40,6 @@
 
     header h1 {
         margin: 0;
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: inline;
-        margin-right: 20px;
-    }
-
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
     }
 
     section {
@@ -58,17 +56,12 @@
 </style>
 
 <body>
-    <header>
-        <h1>Página de Reciclaje</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
     
     <section>
         <h2>Servicios</h2>
@@ -78,7 +71,6 @@
             <li><strong>Asesoramiento en prácticas de reciclaje:</strong> Proporcionamos orientación y recursos para individuos y empresas interesados en adoptar prácticas de reciclaje más sostenibles.</li>
         </ul>
     </section>
-
 
 </body>
 </html>
