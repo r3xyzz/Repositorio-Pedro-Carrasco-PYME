@@ -1,4 +1,4 @@
-/* styles.css */
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -39,6 +39,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Estilos para la sección de bienvenida */
 .welcome {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -54,8 +55,9 @@ nav ul li a {
     margin-top: 20px;
 }
 
+/* Estilos para la barra de navegación */
 .reciclaje-navbar {
-    background-color: #333;
+    background-color: #6e6e6e;
     overflow: hidden;
 }
 
@@ -68,10 +70,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Estilos para la sección de contacto */
 .contacto-section {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(126, 126, 126, 0.7);
 }
+
 
 .enviar-email-button {
     margin-top: 20px;
@@ -88,4 +92,19 @@ nav ul li a {
 .enviar-email-button:hover {
     background-color: #45a049;
 }
+
+.separador {
+    height: 20px;
+}
+
+.contacto-section-2 {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 20px auto; /* Ajusta el margen y centra el segundo section */
+    max-width: 800px; /* Limita el ancho máximo del segundo section */
+    border-radius: 10px; /* Añade bordes redondeados */
+    text-align: center; /* Centra el contenido del segundo section */
+    clear: both; /* Asegura que el segundo section esté debajo del primero */
+}
+
 
